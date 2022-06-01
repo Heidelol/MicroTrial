@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <title>MicroTrial Survery</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
    
+   <div id="maincontainer">
     <h1 id="title">Survey</h1>
     <p id="description">This is a Survey for MicroVerse.</p>
     <form id="survey-form" action="">
@@ -19,15 +20,22 @@
 
       <label id="number-label">Number</label>
       <input id="number" type="number" min=0 max=5 placeholder="Enter your age">
+
+
+      <h2>Gender</h2>
+
        <select name="" id="dropdown">
             <option value="">Male</option>
             <option value="">Female</option>
        </select>
+
+       <h2>Tech stack</h2>
+
        <input type="radio" name="name">
        <label for="name">HTML</label>
        <input type="radio" name="name" >
        <label for="name">CSS</label>
-       <input type="submit" value="Submit Now!" >
+       
 
        <h2>Choose the languages you know:</h2>
 
@@ -42,8 +50,13 @@
 
       <h2>Additional comments:</h2>
        <textarea rows="10" cols="50">Please tell us all your doubts</textarea>
+       <br>
+       <input type="submit" value="Submit Now!" >
 
     </form>
+   </div>
+    
+    
     
   </body>
 </html>

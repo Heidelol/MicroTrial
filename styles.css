@@ -1,0 +1,8 @@
+
+#maincontainer {
+    background-color: beige;
+}
+
+#maincontainer label {
+    display: inline;
+}
