@@ -1,6 +1,12 @@
 
 #maincontainer {
     background-color: beige;
+    display: flex;
+}
+
+#flexcont{
+    justify-content: center;
+    margin: auto;
 }
 
 #maincontainer label {
